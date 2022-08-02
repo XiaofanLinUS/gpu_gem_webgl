@@ -77,7 +77,9 @@ function render(time: number) {
       D.push(Math.cos(ang/180*Math.PI), Math.sin(ang/180*Math.PI));
   }
 
+  
   let uniforms = {
+    cubemap: sky.cubemap,
     t: time * 0.001,
     perspective: perspective,
     camera: camera,

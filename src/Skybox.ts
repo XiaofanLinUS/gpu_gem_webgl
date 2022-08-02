@@ -3,12 +3,12 @@ import * as twgl from 'twgl.js/dist/4.x/twgl-full'
 import vs from './shader/skybox.vert'
 import fs from './shader/skybox.frag'
 
-import right from './res/skybox/right.jpg'
-import left from './res/skybox/left.jpg'
-import top from './res/skybox/top.jpg'
-import bottom from './res/skybox/bottom.jpg'
-import front from './res/skybox/front.jpg'
-import back from './res/skybox/back.jpg'
+import right from './res/skybox/_right.jpg'
+import left from './res/skybox/_left.jpg'
+import top from './res/skybox/_top.jpg'
+import bottom from './res/skybox/_bottom.jpg'
+import front from './res/skybox/_front.jpg'
+import back from './res/skybox/_back.jpg'
 
 
 class Skybox {
