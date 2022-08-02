@@ -17,6 +17,10 @@ module.exports = {
             {
                 test: /\.obj$/i,
                 type: 'asset/resource',
+            },
+            {
+                test: /\.(vert|frag)$/i,
+                type: 'asset/source',
             }
         ],
     },
