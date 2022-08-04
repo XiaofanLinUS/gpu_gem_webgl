@@ -96,10 +96,6 @@ let init_grid_ = (num_segs: number, x_beg: number, z_beg: number, width: number,
             positions.push(0);
             positions.push(b_);
 
-
-
-
-
         }
     }
     let du = 1 / num_segs;

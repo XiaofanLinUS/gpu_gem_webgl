@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
     mode: 'development',
-    entry: './src/Main.ts',
+    entry: './src/GrassMain.ts',
     module: {
         rules: [
             {
@@ -28,7 +28,7 @@ module.exports = {
         extensions: ['.tsx', '.ts', '.js'],
     },
     output: {
-        filename: 'Main.js',
+        filename: 'GrassMain.js',
         path: path.resolve(__dirname, 'dist'),
         publicPath: path.resolve("/") 
     },
